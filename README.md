@@ -30,7 +30,7 @@ Eg:
 ./bfecdlp_chunkio_main 30 27 512 2
 ```
 
-[30, 27, 512, 2]->[$\ell_1-1$, $\ell_2-1$, `t2_num`, `pre_num` ]
+[30, 27, 512, 2]->[ $\ell_1-1$, $\ell_2-1$, `t2_num`, `pre_num` ]
 
 `t2_num` denotes the number of chunks of $\mathbf{T}_2$ to be split. `pre_num` denotes the number of chunks to precompute before decryption starts, in order to avoid the slow down to decryption process. 
 
