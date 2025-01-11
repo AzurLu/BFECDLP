@@ -30,9 +30,9 @@ Eg:
 ./bfecdlp_chunkio_main 30 27 512 2
 ```
 
-[30, 27, 512, 2]->[ $\ell_1-1$, $\ell_2-1$, `t2_num`, `pre_num` ]
+[30, 27, 512, 2]->[ $\ell_1-1$, $\ell_2-1$, `t2_num`, `length` ]
 
-`t2_num` denotes the number of chunks of $\mathbf{T}_2$ to be split. `pre_num` denotes the maximum length of shared queue $\mathcal{Q}$ which stores the chunks. 
+`t2_num` denotes the number of chunks of $\mathbf{T}_2$ to be split. `length` denotes the maximum length of shared queue $\mathcal{Q}$ which stores the chunks. 
 
 If you want to run the BFECDLP without splitting $\mathbf{T}_2$ into chunks, make `t2_num = 1` and `pre_num = 1`.
 
@@ -46,7 +46,7 @@ Eg:
 
 [20, 23, 512, 20]->[ $\ell_1-1$, $\ell_2-1$, `tree_block_num`, `pre_num` ]
 
-`tree_block_num` denotes the number of blocks of $\mathbf{Z}^\prime$, i.e., the number of subtrees of $\mathbf{BT}_2$. `pre_num` denotes the same as mentioned above. 
+`tree_block_num` denotes the number of blocks of $\mathbf{Z}^\prime$, i.e., the number of subtrees of $\mathbf{BT}_2$. `pre_num` denotes the number of initial blocks before decryption. 
 
 ## Result example
 
