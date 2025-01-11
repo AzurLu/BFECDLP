@@ -34,7 +34,7 @@ Eg:
 
 `t2_num` denotes the number of chunks of $\mathbf{T}_2$ to be split. `length` denotes the maximum length of shared queue $\mathcal{Q}$ which stores the chunks. 
 
-If you want to run the BFECDLP without splitting $\mathbf{T}_2$ into chunks, make `t2_num = 1` and `pre_num = 1`.
+If you want to run the BFECDLP without splitting $\mathbf{T}_2$ into chunks, make `t2_num = 1` and `length = 1`.
 
 ### `dfc_main.cpp`
 
