@@ -32,7 +32,7 @@ Eg:
 
 [30, 27, 512, 2]->[ $\ell_1-1$, $\ell_2-1$, `t2_num`, `pre_num` ]
 
-`t2_num` denotes the number of chunks of $\mathbf{T}_2$ to be split. `pre_num` denotes the number of chunks to precompute before decryption starts, in order to avoid the slow down to decryption process. 
+`t2_num` denotes the number of chunks of $\mathbf{T}_2$ to be split. `pre_num` denotes the maximum length of shared queue $\mathcal{Q}$ which stores the chunks. 
 
 If you want to run the BFECDLP without splitting $\mathbf{T}_2$ into chunks, make `t2_num = 1` and `pre_num = 1`.
 
